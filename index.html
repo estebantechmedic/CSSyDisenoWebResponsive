@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width, user-scalable=no"/>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <title>Comenzando con la Fotografía</title>
@@ -9,25 +9,40 @@
   <body>
     <div id="contenido">
       <header>
-        <h1>Comenzando con la Fotografía</h1>
-        <nav>
-          <a href="index.html" class="current">Inicio</a>&emsp;
-          <a href="landscapes.html">Paisajes</a>&emsp;
-          <a href="portraits.html">Retratos</a>&emsp;
-        </nav>
+            <h1>Comenzando con la Fotografía</h1>
+          <nav>
+            <a href="index.html" class="current">Inicio</a>&emsp;
+            <a href="landscapes.html">Paisajes</a>&emsp;
+            <a href="portraits.html">Retratos</a>&emsp;
+          </nav>
+
       </header>
       <section id="imagencentral">
-        <img src="images/paisaje1.jpg" height="100px" alt="Imagen Central" name="Paisaje 1">
+        <img src="images/paisaje1.jpg" width="90%" height="90%" alt="Imagen Central" name="Paisaje 1">
       </section>
       <section id="imagensecundaria">
-        <a href="landscapes.html"><img src="images/paisaje2.jpg" height="100px" alt="Imagen Secundaria Izquierda" name="Paisaje 2">Paisajes</a>
-        <a href="portraits.html"><img src="images/retrato1.jpg" height="100px" alt="Imagen Secundaria Derecha" name="Retrato 1">Retratos</a>
+        <div>
+          <a href="landscapes.html"><img id="imgpaisaje" src="images/paisaje2.jpg"   alt="Imagen Secundaria Izquierda" name="Paisaje 2"></a>
+          <h3>Paisajes</h3>
+        </div>
+        <div>
+          <a href="portraits.html"><img id="imgretrato" src="images/retrato1.jpg"  alt="Imagen Secundaria Derecha" name="Retrato 1"></a>
+          <h3>Retratos</h3>
+        </div>
       </section>
       <footer>
-        <h2>Contacto</h2>
-        <h2>Términos</h2>
-        <h2>Redes Sociales</h2>
-        <h2>Derechos</h2>
+        <div>
+          <h2>Contacto</h2>
+        </div>
+        <div>
+          <h2>Términos</h2>
+        </div>
+        <div>
+          <h2>Redes Sociales</h2>
+        </div>
+        <div>
+          <h2>Derechos</h2>
+        </div>
       </footer>
     </div>
   </body>
